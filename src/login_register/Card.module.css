@@ -1,0 +1,26 @@
+.card {
+  background-image: url("../assets/login_bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.discordLogo {
+  width: 10rem;
+  height: auto;
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+.background {
+  background-color: #36393f;
+  color: white;
+  align-self: center;
+  width: fit-content;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 5rem;
+  margin-left: 25rem;
+  padding: 1rem;
+}

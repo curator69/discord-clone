@@ -1,0 +1,203 @@
+.main {
+  font-family: "Roboto", sans-serif;
+  width: 95%;
+  display: flex;
+}
+
+.channelList {
+  width: 18%;
+  background-color: #2f3136;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 1rem 1rem;
+  justify-content: space-between;
+  position: relative;
+}
+.hashtag {
+  color: grey;
+  margin-right: 1rem;
+}
+
+.channelList > p {
+  font-size: 15px;
+  display: flex;
+  cursor: pointer;
+}
+
+.arrorDown {
+  margin-left: -1rem;
+}
+
+.grey {
+  color: grey;
+}
+
+.newLine {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.closeIcon {
+  width: 1rem;
+  height: 1rem;
+  color: white;
+}
+
+.profile {
+  padding: 5px;
+  position: absolute;
+  top: 91%;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  background-color: #202225;
+  width: 100%;
+  height: 9%;
+}
+
+.first {
+  border-radius: 50%;
+  padding: 0.5rem;
+  padding-top: 10px;
+  margin-right: 10px;
+  color: white;
+  background-color: rgb(250, 166, 26);
+}
+
+.last {
+  width: 6rem;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1rem;
+}
+
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  background-color: #3f4147;
+  color: white;
+  padding: 0.8rem 1rem;
+  justify-content: space-between;
+}
+
+.mainSection > a {
+  margin-top: 30rem;
+  height: 2rem;
+  text-decoration: none;
+  background-color: #5865f2;
+  color: white;
+  width: 38%;
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons {
+  color: rgb(167, 167, 167);
+  width: 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputSection {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #51535a;
+  padding: 10px 1rem;
+  border-radius: 10px;
+}
+
+.input {
+  width: 80%;
+  padding: 0;
+  margin: 0;
+  background-color: #51535a;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.plusIcon,
+.giftIcon,
+.gifIcon,
+.smileIcon,
+.notificationIcon,
+.pinIcon,
+.friendsIcon,
+.inboxIcon,
+.questionMarkIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.plusIcon {
+  background-color: grey;
+  color: black;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.members {
+  width: 22%;
+  background-color: #2f3136;
+}
+
+.membersMain {
+  padding: 1rem;
+  padding-top: 1.5rem;
+  color: grey;
+  font-size: 14px;
+}
+
+.membersMain > h4 {
+  margin-bottom: 1rem;
+}
+
+.membersMain > div {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.membersMain > div > div {
+  border-radius: 50%;
+  padding: 0.5rem;
+  padding-top: 10px;
+  margin-right: 1rem;
+  color: white;
+  background-color: rgb(250, 166, 26);
+}
+
+.membersInputSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3f4147;
+  height: 7%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: grey;
+}
+
+.membersInputSection > input {
+  width: 70%;
+  height: 1.8rem;
+  margin: 0;
+  outline: none;
+  color: white;
+}

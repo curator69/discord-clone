@@ -1,0 +1,19 @@
+.main {
+  width: 64%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-right: 0.1px solid black;
+}
+
+.Icon {
+  width: 50%;
+  cursor: default;
+  margin-bottom: 1.5rem;
+}
+
+.main > p {
+  color: grey;
+}

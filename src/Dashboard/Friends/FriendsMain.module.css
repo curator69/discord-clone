@@ -1,0 +1,13 @@
+.main {
+  font-family: "Roboto", sans-serif;
+  background-color: #3f4147;
+  width: 77%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.rowFlex {
+  display: flex;
+  height: 93%;
+}

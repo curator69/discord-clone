@@ -1,0 +1,58 @@
+.bar {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 10px;
+
+  width: 5%;
+  height: 100vh;
+  background-color: #202225;
+  align-items: center;
+}
+
+.mainIcon {
+  padding: 8px;
+  margin-bottom: 1rem;
+  align-self: flex-end;
+  width: 100%;
+  height: 3rem;
+  border-radius: 1rem;
+  fill: white;
+  background-color: #4c65c0;
+}
+
+.newLine {
+  height: 3rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.plusIcon {
+  width: 100%;
+  height: 3rem;
+  padding: 10px;
+  margin-bottom: 1rem;
+  color: #3ba55d;
+  background-color: #36393f;
+  border-radius: 50%;
+}
+
+.navigation {
+  width: 100%;
+  height: 3rem;
+  padding: 13px;
+  margin-bottom: 1rem;
+  color: #3ba55d;
+  background-color: #36393f;
+  border-radius: 50%;
+}
+
+.downloadIcon {
+  width: 100%;
+  height: 3rem;
+  padding: 13px;
+  margin-bottom: 1rem;
+  color: #3ba55d;
+  background-color: #36393f;
+  border-radius: 50%;
+}

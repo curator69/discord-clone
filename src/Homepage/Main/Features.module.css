@@ -1,0 +1,106 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+
+img {
+  width: 45rem;
+  height: 45rem;
+}
+
+.feature1,
+.feature2,
+.feature3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.feature1 > .description {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem;
+  text-align: left;
+}
+
+.feature1 > .description > h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Rubik Moonrocks", cursive;
+  padding-bottom: 2rem;
+  padding-right: 10rem;
+}
+
+.feature1 > .description > p {
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 1.7;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  opacity: 0.7;
+}
+
+.feature2 {
+  flex-direction: row-reverse;
+  background-color: rgb(212, 212, 212);
+}
+
+.feature2 > .description {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column-reverse;
+  padding-left: 3rem;
+  text-align: left;
+}
+
+.feature2 > .description > h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Rubik Moonrocks", cursive;
+  padding-bottom: 2rem;
+  padding-right: 10rem;
+}
+
+.feature2 > .description > p {
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 1.7;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  opacity: 0.7;
+}
+
+.feature3 > .description {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding-left: 3rem;
+  text-align: left;
+}
+
+.feature3 > .description > h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: "Rubik Moonrocks", cursive;
+  padding-bottom: 2rem;
+  padding-right: 10rem;
+}
+
+.feature3 > .description > p {
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 1.7;
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  opacity: 0.7;
+}

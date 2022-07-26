@@ -1,0 +1,110 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(2, 16rem);
+  grid-gap: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_heading {
+  font-size: 1.7rem;
+  margin-bottom: 1px;
+  font-weight: 700;
+}
+
+.form_subHeading {
+  font-size: 14px;
+  font-weight: 100;
+  font-family: sans-serif;
+  margin-bottom: 1rem;
+  opacity: 0.7;
+}
+
+form > label {
+  opacity: 0.7;
+  margin-bottom: 4px;
+  font-size: 1rem;
+}
+
+form > input {
+  background-color: #2b2d31;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+form > a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: rgb(0, 162, 255);
+  margin-bottom: 1.5rem;
+}
+
+form > a:hover {
+  color: rgb(0, 204, 255);
+}
+
+form > button {
+  background-color: #5865f2;
+  border: 1px solid black;
+  color: white;
+  font-family: inherit;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+form > button:hover {
+  background-color: #5865f2b2;
+}
+
+form > p {
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+form > p > a {
+  color: rgb(0, 162, 255);
+  text-decoration: none;
+}
+
+form > p > a:hover {
+  color: rgb(0, 204, 255);
+}
+
+.qrcode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.qrcodeImage {
+  width: 10rem;
+  height: 10rem;
+  padding: 8px;
+  margin-bottom: 1rem;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.qrcode_heading {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.qrcode_subHeading {
+  max-width: 65%;
+  padding: 1px;
+  font-size: 15px;
+}
