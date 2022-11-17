@@ -1,3 +1,8 @@
+I know this dosen't look any near to perfect nor near decent, but it was my first mid size project.
+This is not the finished product, future updates will include lots of functionalities and the most important part, responsiveness!
+
+Live Demo: https://codedamn.com/playground/T6dU3a-DGY8l16YSq9fwY
+
 # Codedamn Projects - Discord UI Clone
 ![main image](https://raw.githubusercontent.com/codedamn-projects/discord-ui-clone/master/designs/cover-image.png)
 
